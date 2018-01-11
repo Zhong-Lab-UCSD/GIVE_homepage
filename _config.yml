@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: "GIVE: Build your own genome browser"
 description: Genomic Interaction Visualization Engine
+github:
+  repository_url: https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine
