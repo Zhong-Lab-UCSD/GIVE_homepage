@@ -9,7 +9,7 @@ From zero to expert! Step-by-step tutorials with comprehensive examples show you
 ## [A 2-minute starter](https://jsfiddle.net/frankyan/mcdng033/)
 
 Just copy paste the following HTML codes to [jsfiddle](https://jsfiddle.net/), an online HTML testing website for testing of your own HTML codes. 1) Go to  [jsfiddle](https://jsfiddle.net), 2) copy paste the following lines to the HTML panel (top left), 3) hit "run" button.
-Congratulations! You are seeing your first genome browser webpage. It's much less than 2 minutes. So you have some time to customize it.
+Congratulations! You are seeing your first genome browser webpage. 
 ```html
 <!-- header source -->
 <script src="https://www.givengine.org/bower_components/webcomponentsjs/webcomponents-lite.min.js"></script> 
@@ -24,6 +24,8 @@ Congratulations! You are seeing your first genome browser webpage. It's much les
   group-id-list='["genes", "CHi-C_promoter"]'
 ></chart-controller>
 ```
+It's much less than 2 minutes. So you have some time to learn some essential points of customizing it.
+![2-minute code illustration](figures/2-minute_code.png)
 In this example, the genomic track data are hosted on the GIVE-Hub, which is a data center for GIVE users maintained by Zhong Lab in UCSD. We have collect thousands of data. Check out.
 you can tweak the codes to 
 
