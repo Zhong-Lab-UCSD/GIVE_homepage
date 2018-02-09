@@ -1,22 +1,34 @@
-__*GIVE*__  is an open source programming library that allows anyone with HTML programming experience to build custom genome browser websites or apps.  With a few lines of codes, one can add to a personal webpage an interactive genome browser that host custom data. It typically takes less than half a day to build a genome browser website with GIVE. 
+__*GIVE*__  is an open source programming library that allows anyone with HTML programming experience to build custom genome browser websites or apps.  With a few lines of codes, one can add to a personal webpage an interactive genome browser that host custom data. It typically takes less than an hour to build a genome browser website with GIVE. 
 This portable library encapsulates novel data communication and data visualization technologies, including new data structures and new memory management methods that enable efficient data transfer between the data-hosting website and internet browsers.  
 GIVE is the acronym of **G**enomic **I**nteraction **V**isualization **E**ngine, although GIVE's utilities have outgrown its original name.
 
 [GIVE Tutorial](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/tree/master/tutorials)  | [GIVE Manual](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/) 
 -------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------
-Example websites and line by line explanation.                                                                     | A full technical reference.                                                                                               
+From zero to expert! Step-by-step tutorials with comprehensive examples show you how to elegently customize a genome browser with GIVE.  .                                                                     | Full technical details for users or developers who want to learn more about how GIVE works.                                                                                               
 
-## [A 2-minute example](https://jsfiddle.net/frankyan/mcdng033/1/)
+## [A 2-minute starter](https://jsfiddle.net/frankyan/mcdng033/)
 
-Just copy paste the two following lines to [jsfiddle](https://jsfiddle.net), an online HTML testing website for testing of your own HTML codes. 1) Go to  [jsfiddle](https://jsfiddle.net), 2) copy paste the following lines to the HTML panel (top left), 3) hit "run" button.
-Congratulations! You are seeing your first genome browser webpage. You can modify and change using HTML as your wish.
+Just copy paste the following HTML codes to [jsfiddle](https://jsfiddle.net/), an online HTML testing website for testing of your own HTML codes. 1) Go to  [jsfiddle](https://jsfiddle.net), 2) copy paste the following lines to the HTML panel (top left), 3) hit "run" button.
+Congratulations! You are seeing your first genome browser webpage. It's much less than 2 minutes. So you have some time to customize it.
+```html
+<!-- header source -->
+<script src="https://www.givengine.org/bower_components/webcomponentsjs/webcomponents-lite.min.js"></script> 
+<link rel="import" href="https://www.givengine.org/components/chart-controller/chart-controller.html">
+
+<!-- embed the browser in the web page -->
+<chart-controller 
+  title-text="A 2-minute starter of building a genome browser with GIVE" 
+  ref="hg19" 
+  num-of-subs="2" 
+  coordinates='["chr18:19140000-19450000", "chr18:19140000-19450000"]'
+  group-id-list='["genes", "CHi-C_promoter"]'
+></chart-controller>
 ```
-<script src="https://www.givengine.org/libWC/webcomponents-lite.min.js"></script> 
-<link rel="import" href="https://www.givengine.org/lib/chart-controller/chart-controller.html">
-<!-- Embed the browser in your web page -->
-<chart-controller title-text="long-range promoter contacts with capture Hi-C" ref="hg19" num-of-subs="2" coordinates='["chr18:19140000-19450000", "chr18:19140000-19450000"]' group-id-list='["genes", "CHi-C_promoter", "customTracks"]'>
-</chart-controller>
-```
+In this example, the genomic track data are hosted on the GIVE-Hub, which is a data center for GIVE users maintained by Zhong Lab in UCSD. We have collect thousands of data. Check out.
+you can tweak the codes to 
+
+Want to host your own data hub? Of course, you can! Learn more from our tutorial, you only need to know 
+
 
 ****************
 
