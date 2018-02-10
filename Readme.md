@@ -7,7 +7,7 @@ GIVE is the acronym of **G**enomic **I**nteraction **V**isualization **E**ngine,
 -------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------
 From zero to expert! Step-by-step tutorials with comprehensive examples show you how to elegently customize a genome browser with GIVE.  .                                                                     | Full technical details for users or developers who want to learn more about how GIVE works.                                                                                               
 
-## [A 2-minute starter](https://jsfiddle.net/frankyan/mcdng033/)
+## [A 2-minute tutorial](https://jsfiddle.net/frankyan/mcdng033/)
 
 Just copy paste the following HTML codes to [jsfiddle](https://jsfiddle.net/), an online HTML testing website for testing of your own HTML codes. 1) Go to  [jsfiddle](https://jsfiddle.net), 2) copy paste the following lines to the HTML panel (top left), 3) hit "run" button.
 Congratulations! You have built your first genome browser webpage using GIVE-Hub data source in less than 1 minute. 
@@ -29,18 +29,14 @@ So you have enough time to learn some essential tips for customizing your genome
 
 ![2-minute code illustration](figures/2-minute_code.png)
 
-This genome browser is using GIVE-Hub data source. There are already hundreds of public data sets available in GIVE-Hub. You can go to the [GIVE-Hub Data Portal](https://beta.give.genemo.org/data-portal.html) to look for other reference genomes and data track groups you can use. In the GIVE-Hub data portal, you can find the values that can be used for `ref` and `group-id-list` in you genome browser HTML codes. The following screenshot shows the data portal page.
+This genome browser is using GIVE-Hub data source. There are already hundreds of public data sets available in GIVE-Hub. You can go to the [GIVE-Hub Data Portal](https://beta.give.genemo.org/data-portal.html) to look for other reference genomes and data track groups you can use. In the GIVE-Hub data portal, you can find the values that can be used for `ref` and `group-id-list` in you genome browser HTML codes. For example, the screenshot below shows that you can add `interaction` to the `group-id-list` with `hg19` reference genome.
 
 ![2-minute GIVE-Hub info](figures/2-minute_GIVE-Hub.png)
 
-So here is a gif animation of what 
-
-In this example, the genomic track data are hosted on the GIVE-Hub, which is a data center for GIVE users maintained by Zhong Lab in UCSD. We have collect thousands of data. Check out.
-you can tweak the codes to 
-
+The following GIF animation shows the whole process of the 2 minute tutorial. It's so easy.
 ![2 minute show](figures/2-minutes-show.gif)
-Want to host your own data hub? Of course, you can! Learn more from our tutorial, you only need to know 
 
+How to use your own data instead of GIVE-Hub data source? It's easy! Just learn more from GIVE tutorials!
 
 ****************
 
