@@ -37,7 +37,7 @@ The following GIF animation shows the whole process of the 2 minute tutorial. It
 
 ![2 minute show](figures/2-minutes-show.gif)
 
-How to use your own data instead of GIVE-Hub data source? It's easy! Just learn more from GIVE tutorials! You can set up your own GIVE service and build a powerful genome browser with you own data in less than 2 hours!
+How to use your own data instead of GIVE-Hub data source? It's easy! Just learn more from [GIVE tutorials](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/tree/master/tutorials)! You can set up your own GIVE service and build a powerful genome browser with you own data in less than 2 hours!
 
 ****************
 
