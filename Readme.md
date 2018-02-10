@@ -24,7 +24,9 @@ Congratulations! You are seeing your first genome browser webpage.
   group-id-list='["genes", "CHi-C_promoter"]'
 ></chart-controller>
 ```
-It's much less than 2 minutes. So you have some time to learn some essential points of customizing it.
+It's much less than 2 minutes. So you have some time to learn essential tips for customizing your genome browser. Following HTML code illustration figure shows you all the information you need.
+
+
 ![2-minute code illustration](figures/2-minute_code.png)
 In this example, the genomic track data are hosted on the GIVE-Hub, which is a data center for GIVE users maintained by Zhong Lab in UCSD. We have collect thousands of data. Check out.
 you can tweak the codes to 
