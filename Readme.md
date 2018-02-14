@@ -3,9 +3,10 @@ __*GIVE*__  is an open source programming library that allows anyone without muc
 This portable library encapsulates novel data communication and data visualization technologies, including new data structures and new memory management methods that enable efficient data transfer between the data-hosting website and internet browsers. 
 GIVE is the acronym of **G**enomic **I**nteraction **V**isualization **E**ngine, although GIVE's utilities have outgrown its original name.
 
-[GIVE Tutorial](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/tree/master/tutorials)  | [GIVE Manual](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/) 
--------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------
-From zero to expert! Step-by-step tutorials with comprehensive examples show you how to elegently customize a genome browser with GIVE.  .                                                                     | Full technical details for users or developers who want to learn more about how GIVE works.                                                                                               
+- [**GIVE Tutorial**](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/tree/master/tutorials): From zero to expert! Step-by-step tutorials with comprehensive examples show you how to elegently customize a genome browser with GIVE
+- [**GIVE Manual**](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/): Technical details for users or developers who want to learn more about GIVE. 
+- [**GIVE-Hub**](https://www.givengine.org/give-hub.html): The UCSD data center providing GIVE service and hosting hundreds of public/customer data source. 
+                                                                          
 
 ## [A 2-minute tutorial](https://jsfiddle.net/frankyan/mcdng033/)
 
@@ -25,15 +26,7 @@ Congratulations! You have built your first genome browser webpage using GIVE-Hub
   group-id-list='["genes", "CHi-C_promoter"]'
 ></chart-controller>
 ```
-So you have enough time to learn some essential tips for customizing your genome browser. The following HTML code illustration figure shows nearly all the information you need. All the colored parts are useful for customization, especially for the `ref` and `group-id-list`. 
-
-![2-minute code illustration](figures/2-minute_code.png)
-
-This genome browser is using GIVE-Hub data source. There are already hundreds of public data sets available in GIVE-Hub. You can go to the [GIVE-Hub Data Portal](https://beta.give.genemo.org/data-portal.html) to look for other reference genomes and data track groups you can use. In the GIVE-Hub data portal, you can find the values that can be used for `ref` and `group-id-list` in you genome browser HTML codes. For example, the screenshot below shows that you can add `interaction` to the `group-id-list` with `hg19` reference genome.
-
-![2-minute GIVE-Hub info](figures/2-minute_GIVE-Hub.png)
-
-The following GIF animation shows the whole process of the 2 minute tutorial. It's so easy.
+So you have enough time to learn some essential tips for customizing your genome browser. Please read the [GIVE Tutorial 0: Building a Customized Genome Browser within 2 minutes](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/tutorials/0-shortexample.md). The following GIF animation shows the whole process of the 2 minute tutorial. It's so easy.
 
 ![2 minute show](figures/2-minutes-show.gif)
 
