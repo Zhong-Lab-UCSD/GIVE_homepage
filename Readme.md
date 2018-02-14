@@ -4,7 +4,7 @@ This portable library encapsulates novel data communication and data visualizati
 GIVE is the acronym of **G**enomic **I**nteraction **V**isualization **E**ngine, although GIVE's utilities have outgrown its original name.
 
 - [**GIVE Tutorial**](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/tree/master/tutorials): From zero to expert! Step-by-step tutorials with comprehensive examples show you how to elegently customize a genome browser with GIVE
-- [**GIVE Manual**](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/): Technical details for users or developers who want to learn more about GIVE. 
+- [**GIVE Manual**](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/): Technical details for users or developers who want to learn more about how GIVE works. 
 - [**GIVE-Hub**](https://www.givengine.org/give-hub.html): The UCSD data center providing GIVE service and hosting hundreds of public/customer data source. 
                                                                           
 
