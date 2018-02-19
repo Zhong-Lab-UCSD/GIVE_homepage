@@ -1,17 +1,17 @@
-__*GIVE*__  is an open source programming library that allows anyone without much programming experience to build custom genome browser websites or apps. With a few lines of codes, one can set up GIVE service on a local machine, manage custom data and build an interactive genome browser. Besides, we established **GIVE-Hub**, a data center providing GIVE service and hosting public/customer data sets, such as ENCODE data. It takes only a few minutes to build a genome browser website using GIVE-Hub.
+__*GIVE*__  is an open source programming library that allows anyone without much programming experience to build custom genome browser websites or apps. With a few lines of codes, one can set up GIVE service on a local machine, manage custom data and build an interactive genome browser. Besides, we established **GIVE Data Hub**, a data center providing GIVE service and hosting public/customer data sets, such as ENCODE data. It takes only a few minutes to build a genome browser website using GIVE-Hub.
 
 This portable library encapsulates novel data communication and data visualization technologies, including new data structures and new memory management methods that enable efficient data transfer between the data-hosting website and internet browsers. 
 GIVE is the acronym of **G**enomic **I**nteraction **V**isualization **E**ngine, although GIVE's utilities have outgrown its original name.
 
 - [**GIVE Tutorial**](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/tree/master/tutorials): From zero to expert! Step-by-step tutorials with comprehensive examples show you how to elegently customize a genome browser with GIVE
 - [**GIVE Manual**](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/): Technical details for users or developers who want to learn more about how GIVE works.
-- [**GIVE-Hub**](https://www.givengine.org/give-hub.html): The UCSD data center providing GIVE service and hosting hundreds of public/customer data source. 
+- [**GIVE Data Hub**](https://www.givengine.org/give-hub.html): The UCSD data center providing GIVE service and hosting hundreds of public/customer data source. 
                                                                           
 
 ## [A 2-minute tutorial](https://jsfiddle.net/frankyan/mcdng033/)
 
 Just copy paste the following HTML codes to [jsfiddle](https://jsfiddle.net/), an online HTML testing website for testing of your own HTML codes. 1) Go to  [jsfiddle](https://jsfiddle.net), 2) copy paste the following lines to the HTML panel (top left), 3) hit "run" button.
-Congratulations! You have built your first genome browser webpage using GIVE-Hub data source in less than 1 minute. 
+Congratulations! You have built your first genome browser webpage using GIVE Data Hub data source in less than 1 minute. 
 ```html
 <!-- header source -->
 <script src="https://www.givengine.org/bower_components/webcomponentsjs/webcomponents-lite.min.js"></script> 
@@ -26,11 +26,11 @@ Congratulations! You have built your first genome browser webpage using GIVE-Hub
   group-id-list='["genes", "CHi-C_promoter"]'
 ></chart-controller>
 ```
-So you have enough time to learn some essential tips for customizing your genome browser. Please read the [GIVE Tutorial 0: Building a Customized Genome Browser within 2 minutes](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/tutorials/0-shortexample.md). The following GIF animation shows the whole process of the 2 minute tutorial. It's so easy.
+So you have enough time to learn some essential tips for customizing your genome browser. Please read the [GIVE Tutorial 0: Start from a 2 minutes example](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/tutorials/0-shortexample.md). The following GIF animation shows the whole process of the 2 minute tutorial. It's so easy.
 
 ![2 minute show](figures/2-minutes-show.gif)
 
-How to use your own data instead of GIVE-Hub data source? It's easy! Just learn more from [GIVE tutorials](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/tree/master/tutorials)! You can set up your own GIVE service and build a powerful genome browser with you own data in less than 2 hours!
+How to use your own data instead of GIVE Data Hub data source? It's easy! Just learn more from [GIVE tutorials](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/tree/master/tutorials)! You can set up your own GIVE service and build a powerful genome browser with you own data in less than 2 hours!
 
 ****************
 
