@@ -3,13 +3,13 @@ __*GIVE*__  is an open source programming library that allows anyone without muc
 This portable library encapsulates novel data communication and data visualization technologies, including new data structures and new memory management methods that enable efficient data transfer between the data-hosting website and internet browsers. 
 GIVE is the acronym of **G**enomic **I**nteraction **V**isualization **E**ngine, although GIVE's utilities have outgrown its original name.
 
-- [**GIVE Tutorial**](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/tree/master/tutorials): From zero to expert! Step-by-step tutorials with comprehensive examples show you how to elegently customize a genome browser with GIVE
-- [**GIVE Manual**](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/): Technical details for users or developers who want to learn more about how GIVE works.
-- [**GIVE Data Hub**](https://www.givengine.org/data-hub.html): The UCSD data center providing GIVE service and hosting hundreds of public/customer data source. 
-                                                                          
-
-## [A 2-minute tutorial](https://jsfiddle.net/frankyan/mcdng033/)
-
+## [**GIVE Tutorials**](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/tree/master/tutorials)
+From zero to expert! Step-by-step tutorials with comprehensive examples show you how to elegantly customize a genome browser with GIVE.
+## [**GIVE Manuals**](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/)
+Technical details for users or developers who want to learn more about how GIVE works.
+## [**GIVE Data Hub**](https://www.givengine.org/data-hub.html)
+The UCSD data center providing GIVE service and hosting hundreds of public/customer data source. 
+## [A 2-minute Example](https://jsfiddle.net/frankyan/mcdng033/)
 Just copy paste the following HTML codes to [jsfiddle](https://jsfiddle.net/), an online HTML testing website for testing of your own HTML codes. 1) Go to  [jsfiddle](https://jsfiddle.net), 2) copy paste the following lines to the HTML panel (top left), 3) hit "run" button.
 Congratulations! You have built your first genome browser webpage using GIVE Data Hub data source in less than 1 minute. 
 ```html
@@ -30,7 +30,7 @@ So you have enough time to learn some essential tips for customizing your genome
 
 ![2 minute show](figures/2-minutes-show.gif)
 
-How to use your own data instead of GIVE Data Hub data source? It's easy! Just learn more from [GIVE tutorials](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/tree/master/tutorials)! You can set up your own GIVE service and build a powerful genome browser with you own data in less than 2 hours!
+How to use your own data instead of GIVE Data Hub data source? Just learn more from [GIVE tutorials](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/tree/master/tutorials)! You can set up your own GIVE service and build a powerful genome browser with you own data in less than 2 hours!
 
 ****************
 
