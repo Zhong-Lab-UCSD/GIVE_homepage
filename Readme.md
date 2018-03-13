@@ -7,8 +7,11 @@ GIVE is the acronym of **G**enomic **I**nteraction **V**isualization **E**ngine,
 From zero to expert! Step-by-step tutorials with comprehensive examples show you how to elegantly customize a genome browser with GIVE.
 ## [**GIVE Manuals**](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/)
 Technical details for users or developers who want to learn more about how GIVE works.
-## [**GIVE Data Hub**](https://www.givengine.org/data-hub.html)
-An interactive website for browsing datasets host on public data servers. An interactive feature inside data hub automatically generates HTML files for displaying user chosen datasets, thus relieving the user from doing any programming. The generated HTML file can be saved and shared, or copy-pasted into personal websites.   
+## [**GIVE Data Hub**](https://www.givengine.org/give-data-hub.html)
+An interactive website for browsing datasets host on public data servers. An interactive feature inside data hub automatically generates HTML files for displaying user chosen datasets, thus relieving the user from doing any programming. The generated HTML file can be saved and shared, or copy-pasted into personal websites. 
+
+If you want your own data to be included in GIVE Data Hub (the public GIVE instance). Please use [Data Submission to GIVE Data Hub form](https://goo.gl/forms/alI3NFifNiwFt8fp1) to submit your information to the GIVE team. We will contact you for further details if your data are selected to be included in GIVE Data Hub.
+
 ## [A 2-minute Example](https://jsfiddle.net/frankyan/mcdng033/)
 Just copy paste the following HTML code to [jsfiddle](https://jsfiddle.net/), an online HTML testing website for testing of your own HTML code. 1) Go to  [jsfiddle](https://jsfiddle.net), 2) copy paste the following lines to the HTML panel (top left), 3) hit the "run" button.
 Congratulations! You have built your first genome browser webpage using GIVE Data Hub data source in less than 1 minute. 
