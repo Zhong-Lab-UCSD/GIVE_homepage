@@ -50,6 +50,17 @@ How can you use your own data instead of GIVE Data Hub data source? Just learn m
   </tr>
 </table>
 
+<table>	
+  <tr>	
+    <td width="60%">	
+      <a href="https://mcf7.givengine.org">A website for displaying genome interaction (Hi-C) data together with other data types</a>	
+    </td> 	
+    <td width="40%">	
+      <a href="https://mcf7.givengine.org"><img src="figures/give_hic.png" width="400px"></a>	
+    </td>	
+  </tr>	
+</table>
+
 <table>
   <tr>
     <td width="60%">
