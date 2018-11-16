@@ -17,7 +17,7 @@ Just copy paste the following HTML code to [jsfiddle](https://jsfiddle.net/), an
 Congratulations! You have built your first genome browser webpage using GIVE Data Hub data source in less than 1 minute. 
 ```html
 <!-- header source -->
-<script src="https://www.givengine.org/bower_components/webcomponentsjs/webcomponents-lite.min.js"></script> 
+<script src="https://www.givengine.org/bower_components/webcomponentsjs/webcomponents-loader.js"></script> 
 <link rel="import" href="https://www.givengine.org/components/chart-controller/chart-controller.html">
 
 <!-- embed the browser in the web page -->
@@ -25,7 +25,7 @@ Congratulations! You have built your first genome browser webpage using GIVE Dat
   title-text="A 2-minute starter of building a genome browser with GIVE" 
   ref="hg19" 
   num-of-subs="2" 
-  coordinates='["chr18:19140000-19450000", "chr18:19140000-19450000"]'
+  coordinate='["chr18:19140000-19450000", "chr18:19140000-19450000"]'
   group-id-list='["genes", "CHi-C_promoter"]'
 ></chart-controller>
 ```
