@@ -106,7 +106,7 @@ How can you use your own data instead of GIVE Data Hub data source? Just learn m
 </table>
 ----------------
 
-Citation: Xiaoyi Cao, Zhangming Yan, Qiuyang Wu, Alvin Zheng, Sheng Zhong, Building a genome browser with GIVE,  bioRxiv, 2017, [https://doi.org/10.1101/177832](https://doi.org/10.1101/177832).
+Citation: Xiaoyi Cao, Zhangming Yan, Qiuyang Wu, Alvin Zheng, Sheng Zhong, GIVE: portable genome browsers for personal websites, *Genome Biology*, 2018, __19__:92. <https://doi.org/10.1186/s13059-018-1465-6>.
 
 ----------------
 
