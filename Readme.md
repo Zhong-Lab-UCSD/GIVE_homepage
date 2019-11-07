@@ -40,16 +40,15 @@ For the lastest version of GIVE engine, you could upload your local data by uplo
 Currently GIVE accept:
 - Bed file
 - Interaction file
-- Bigwig file
-\* Notice, bigwig file is only supported load from url. 
-
+- Bigwig file (only supported load from url)
+ 
 ### Example: add bigwig file from URL
 The bigWig format is useful for dense, continuous data that will be displayed, The bigWig files are in an indexed binary format and is fast to retrieve and display a particular region. Because of this, bigWig files have considerably faster display performance than regular wiggle files when working with large data sets. 
 
 Let's see how to add an example bigwig file provided by UCSC. 
 The example url we're using is: http://genome.ucsc.edu/goldenPath/help/examples/bigWigExample.bw. 
 ![Add custom bigwig](figures/custom_bigwig.gif)
-*Note that this file only contains data of Chr21. 
+*The example file only contains data of Chr21. 
 
 ****************
 
