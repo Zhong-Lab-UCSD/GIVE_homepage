@@ -35,6 +35,22 @@ So you have enough time to learn some essential tips for customizing your genome
 
 How can you use your own data instead of GIVE Data Hub data source? Just learn more from [GIVE tutorials](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/tree/master/tutorials)! You can set up your own GIVE service and build a powerful genome browser with your own data in less than 2 hours!
 
+## Add custom data track
+For the lastest version of GIVE engine, you could upload your local data by uploading files from your computer or, load in data from remote repository with its url! 
+Currently GIVE accept:
+- Bed file
+- Interaction file
+- Bigwig file
+* Notice, bigwig file is only supported load from url. 
+
+### Example: add bigwig file from URL
+The bigWig format is useful for dense, continuous data that will be displayed, The bigWig files are in an indexed binary format and is fast to retrieve and display a particular region. Because of this, bigWig files have considerably faster display performance than regular wiggle files when working with large data sets. 
+
+Let's see how to add an example bigwig file provided by UCSC. 
+The example url we're using is: http://genome.ucsc.edu/goldenPath/help/examples/bigWigExample.bw. Note that this file only contains data of Chr21. 
+![Add custom bigwig](figures/custom_bigwig.gif)
+
+
 ****************
 
 ## Examples of custom genome browsers built with GIVE using GIVE-Hub data source
