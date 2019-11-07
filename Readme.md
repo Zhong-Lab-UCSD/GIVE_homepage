@@ -41,7 +41,7 @@ Currently GIVE accept:
 - Bed file
 - Interaction file
 - Bigwig file
-* Notice, bigwig file is only supported load from url. 
+\* Notice, bigwig file is only supported load from url. 
 
 ### Example: add bigwig file from URL
 The bigWig format is useful for dense, continuous data that will be displayed, The bigWig files are in an indexed binary format and is fast to retrieve and display a particular region. Because of this, bigWig files have considerably faster display performance than regular wiggle files when working with large data sets. 
